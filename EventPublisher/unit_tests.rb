@@ -1,5 +1,5 @@
 require "test/unit"
-require 'event_publisher.rb'
+require './event_publisher.rb'
 
 def subscriber_method(event, *args)
 	# use a global variable to get the test

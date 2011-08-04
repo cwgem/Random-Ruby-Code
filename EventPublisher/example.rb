@@ -1,4 +1,4 @@
-require 'event_publisher.rb'
+require './event_publisher.rb'
 
 class MyPublisher
   include EventPublisher
