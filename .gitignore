@@ -1,4 +1,5 @@
 .project
 .idea
+.redcar
 *.rbc
 nbproject
