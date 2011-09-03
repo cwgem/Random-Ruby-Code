@@ -77,3 +77,9 @@ module ObjectDescribe
   end
 
 end
+
+if __FILE__ == $0
+require 'yaml'
+
+puts ObjectDescribe.output(YAML)
+end
