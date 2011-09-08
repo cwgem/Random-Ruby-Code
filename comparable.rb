@@ -40,4 +40,4 @@ employees = Array.new(3) { |index|
   employee
 }
 
-puts Employee.instance_variables.inspect
+pp employees.sort
